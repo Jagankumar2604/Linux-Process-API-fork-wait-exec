@@ -89,7 +89,7 @@ int main() {
 }
 
 ## OUTPUT
-<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/6a4cb8fd-88c1-4e70-97b5-0b6413f37679" />
+<img width="1920" height="923" alt="VirtualBox_Parrot Security 6 0_13_05_2026_09_08_08" src="https://github.com/user-attachments/assets/6e284511-2ed0-4b25-9f65-39d00956d9f0" />
 
 
 # RESULT:
