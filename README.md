@@ -1,29 +1,24 @@
 # Linux-Process-API-fork-wait-exec-
+
 Ex02-Linux Process API-fork(), wait(), exec()
 # Ex02-OS-Linux-Process API - fork(), wait(), exec()
+
 Operating systems Lab exercise
-
-
 # AIM:
+
 To write C Program that uses Linux Process API - fork(), wait(), exec()
-
 # DESIGN STEPS:
-
-### Step 1:
+# Step 1:
 
 Navigate to any Linux environment installed on the system or installed inside a virtual environment like virtual box/vmware or online linux JSLinux (https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192) or docker.
-
-### Step 2:
+# Step 2:
 
 Write the C Program using Linux Process API - fork(), wait(), exec()
+# Step 3:
 
-### Step 3:
-
-Test the C Program for the desired output. 
-
+Test the C Program for the desired output.
 # PROGRAM:
-
-## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
+# C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
 
 
 #include <stdio.h>
@@ -31,7 +26,6 @@ Test the C Program for the desired output.
 #include <unistd.h>
 #include <sys/wait.h>
 
-```
 int main() {
     int pid = fork();
 
@@ -45,33 +39,15 @@ int main() {
     }
 
     return 0;
-}```
+}
 
+## OUTPUT 
+<img width="1920" height="923" alt="VirtualBox_Parrot Security 6 0_13_05_2026_08_13_45" src="https://github.com/user-attachments/assets/5b3c8d45-3a10-44e8-801d-f3189b1fc78f" />
+<img width="1920" height="923" alt="VirtualBox_Parrot Security 6 0_13_05_2026_08_14_29" src="https://github.com/user-attachments/assets/1961df24-a665-446a-81e6-4d02cdcf8ba8" />
 
+C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
 
-
-
-
-
-
-
-
-
-##OUTPUT
-<img width="1920" height="923" alt="VirtualBox_Parrot Security 6 0_13_05_2026_08_13_45" src="https://github.com/user-attachments/assets/a78cff13-6667-4bec-8e00-6ce80cb4cc30" />
-
-
-
-<img width="1920" height="923" alt="VirtualBox_Parrot Security 6 0_13_05_2026_08_14_29" src="https://github.com/user-attachments/assets/c5045ef0-9f08-42d9-83c1-183c8776ab2b" />
-
-
-
-
-
-## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
-
-
-```#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/wait.h>
@@ -110,49 +86,12 @@ int main() {
     
     printf("Done.\n");
     return 0;
-}```
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##OUTPUT
-
-
-<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/d3033285-8704-46e5-983c-f8796ef1dbf5" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## OUTPUT
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/6a4cb8fd-88c1-4e70-97b5-0b6413f37679" />
 
 
 # RESULT:
+
 The programs are executed successfully.
