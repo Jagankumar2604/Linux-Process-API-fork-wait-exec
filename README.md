@@ -21,10 +21,13 @@ Test the C Program for the desired output.
 # C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
 
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <sys/wait.h>
+include <stdio.h>
+
+include <stdlib.h>
+
+include <unistd.h>
+
+include <sys/wait.h>
 
 int main() {
     int pid = fork();
@@ -48,10 +51,15 @@ int main() {
 C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
 
 #include <stdio.h>
+
 #include <stdlib.h>
+
 #include <sys/types.h>
+
 #include <sys/wait.h>
+
 #include <unistd.h>
+
 
 int main() {
     int status;
@@ -89,7 +97,7 @@ int main() {
 }
 
 ## OUTPUT
-<img width="1920" height="923" alt="VirtualBox_Parrot Security 6 0_13_05_2026_09_08_08" src="https://github.com/user-attachments/assets/6e284511-2ed0-4b25-9f65-39d00956d9f0" />
+<img width="1920" height="923" alt="VirtualBox_Parrot Security 6 0_13_05_2026_09_08_08" src="https://github.com/user-attachments/assets/93ccdcfd-74b6-4517-8e6c-ba60642ed245" />
 
 
 # RESULT:
